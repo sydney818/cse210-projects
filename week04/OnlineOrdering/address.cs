@@ -1,18 +1,17 @@
 using System.Data;
 using System.Net.Sockets;
 
-public class Product
+public class Address
 {
-    private string Street;
-    private string City;
-    private string State;
-    private string Country;
+    private string street;
+    private string city;
+    private string state;
 
-    public Address(string Street, string City, string State)
+    public Address(string street, string city, string state)
     {
-        this.Street = street;
-        this.City = city;
-        this.State = State;
+        this.street = street;
+        this.city = city;
+        this.state = state;
     }
 
     public string GetFullAddress()

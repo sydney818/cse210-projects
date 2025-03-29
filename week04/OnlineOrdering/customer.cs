@@ -3,13 +3,13 @@
 
 public class Customer
 {
-    private string Name;
+    private string name;
     private Address address;
 
     public Customer(string name, Address address)
     {
-        this.Name = name;
-        this.Address = address;
+        this.name = name;
+        this.address = address;
     }
 
     public string GetCustomerName()
